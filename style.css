@@ -1,0 +1,26 @@
+body{
+    color: pink;
+    background-color: palevioletred;
+}
+h1{
+    color: pink;
+    font-family:Verdana;
+}
+.quote{
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+    border: 1px solid;
+}
+.tabs{
+    text-align: right;
+    font-size:larger;
+}
+h2{
+    /* text-decoration: underline; */
+    color: pink;
+}
+.projects{
+    background-color: palevioletred;
+    color: pink;
+}
