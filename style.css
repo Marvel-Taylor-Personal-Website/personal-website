@@ -2,12 +2,6 @@ header{
     box-sizing: border-box;
     display: block;
 }
-/* :root{
-    height: 100vh;
-    width: 100vw;
-    margin: 0px;
-    padding: 0px;
-} */
 nav{
     display: flex;
     justify-content: space-between;
@@ -19,20 +13,10 @@ body{
     background-color: black;
     margin: 0px;
     padding: 0px;
-    /* height: 100vh;
-    width: 100vw; */
-    /* overflow: hidden; */
-}
-html{
-    /* width: 100vw; */
-    /* overflow-x: hidden; */
 }
 h1{
     color: palevioletred;
     font-family:'Times New Roman';
-    /* font-size:xx-large;
-    margin-bottom: 0px; */
-    /* position: fixed; */
 }
 #anchor{
     margin: 0;
@@ -50,41 +34,21 @@ h1{
 }
 h2{
     color: pink;
-    /* padding-left: 40px; */
 }
 h3{
-    /* padding-left: 40px; */
     text-decoration: underline;
 }
 .projects{
-    /* padding-left: 45px; */
     background-color: palevioletred;
     color: pink;
 }
 .titles{
     text-decoration: underline;
-    /* padding-left: 60px; */
-}
-p{
-    color:white;
-    /* padding-left: 60px; */
 }
 .lifestyle{
     color:white;
     height: 750px;
     padding:0 40px 0 40px;
-}
-.hiking{
-    /* padding-left: 40px; */
-}
-.traveling{
-    /* padding-left: 40px; */
-}
-.photo{
-    /* padding-left: 500px; */
-    /* height: 100vh;
-    width: 100vw;
-    overflow: hidden; */
 }
 .center-photo{
     display: block;
