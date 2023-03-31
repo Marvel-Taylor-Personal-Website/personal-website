@@ -1,12 +1,25 @@
+header{
+    box-sizing: border-box;
+    display: block;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 40px;
+    background-color: white;
+}
 body{
     color: black;
-    background-color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
 }
 h1{
     color: palevioletred;
     font-family:'Times New Roman';
-    font-size:xx-large;
-    margin-bottom: 0px;
+}
+#anchor{
+    margin: 0;
 }
 .quote{
     font-size: x-large;
@@ -21,36 +34,23 @@ h1{
 }
 h2{
     color: pink;
-    padding-left: 40px;
 }
 h3{
-    padding-left: 40px;
     text-decoration: underline;
 }
 .projects{
-    padding-left: 45px;
     background-color: palevioletred;
     color: pink;
 }
 .titles{
     text-decoration: underline;
-    padding-left: 60px;
-}
-p{
-    color:white;
-    padding-left: 60px;
 }
 .lifestyle{
-    background-color: black;
     color:white;
     height: 750px;
+    padding:0 40px 0 40px;
 }
-.hiking{
-    padding-left: 40px;
-}
-.traveling{
-    padding-left: 40px;
-}
-.photo{
-    padding-left: 500px;
+.center-photo{
+    display: block;
+    margin: auto;
 }
