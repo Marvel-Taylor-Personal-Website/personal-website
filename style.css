@@ -30,6 +30,10 @@ h1{
     font-family:'Times New Roman';
 }
 
+.SE{
+    padding-top: 50px;
+}
+
 #anchor{
     margin: 0;
 }
