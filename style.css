@@ -63,4 +63,8 @@ p{
 
 #forms{
     color: palevioletred;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    padding: 25px;
 }
