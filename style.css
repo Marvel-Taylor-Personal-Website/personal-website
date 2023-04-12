@@ -42,15 +42,16 @@ h1{
     padding-top: 50px;
 }
 
-.tabs{
+.navigation a{
     text-align: right;
     font-size:larger;
-    padding: 10px 20px;
-    margin: 0px 10px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 500;
 }
 
-.tabs:hover{
-    background-color: palevioletred;
+.navigation a:hover{
+    background-color: pink;
 }
 
 h2{
