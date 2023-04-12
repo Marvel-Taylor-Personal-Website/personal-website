@@ -54,3 +54,11 @@ h3{
     display: block;
     margin: auto;
 }
+
+p{
+    color: palevioletred;
+}
+
+#forms{
+    color: palevioletred;
+}

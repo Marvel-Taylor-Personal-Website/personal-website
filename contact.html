@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=">
     <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="javascript.js"></script>
 </head>
 <body>
@@ -19,5 +20,43 @@
             </div>
         </nav>
     </header>
+
+    <p>Want to stay up to date with my new projects? Please, fill out the form below!</p>
+
+    <form id="forms" action="/formsubmitted.html">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="first name" /></br>
+    
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="last name" /></br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /></br>
+    
+        <input type="submit" value="Submit" />
+</form>
+
+    <!-- <section>
+        <const form = document.querySelector("#form")></const>
+        <const submitButton = document.querySelector("#submit")></const>
+        <const scriptURL = 'https://script.google.com/macros/s/1XTaVdkdAnzhAHoLOA-x0K4svtJOB9RUnp2OgudFCNoEE4Lo8muDKOgSO/exec'></const>
+     
+        <form.addEventListener('submit'), e =></form.addEventListener> {
+          submitButton.disabled = true
+          e.preventDefault()
+          let requestBody = new FormData(form)
+          fetch(scriptURL, { method: 'POST', body: requestBody})
+            .then(response => {
+               alert('Success!', response)
+               submitButton.disabled = false
+              })
+            .catch(error => {
+            alert('Error!', error.message)
+              submitButton.disabled = false
+     
+            }
+            )
+        })
+    </section> -->
 </body>
 </html>
