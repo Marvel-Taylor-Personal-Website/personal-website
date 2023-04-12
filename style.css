@@ -25,7 +25,7 @@ h1{
     font-size: x-large;
     font-style: italic;
     text-align: center;
-    padding-right: 100px;
+    /* padding-right: 100px; */
     padding-top: 50px;
 }
 .tabs{
