@@ -1,26 +1,39 @@
-header{
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    display: block;
 }
+
+header{
+    /* box-sizing: border-box;
+    display: block; */
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     padding: 16px 40px;
     background-color: white;
 }
+
 body{
     color: black;
     background-color: black;
-    margin: 0px;
-    padding: 0px;
+    overflow-x: hidden;
+    min-height: 100vh;
+    /* margin: 0px;
+    padding: 0px; */
 }
+
 h1{
     color: palevioletred;
     font-family:'Times New Roman';
 }
+
 #anchor{
     margin: 0;
 }
+
 .quote{
     font-size: x-large;
     font-style: italic;
@@ -28,29 +41,42 @@ h1{
     /* padding-right: 100px; */
     padding-top: 50px;
 }
+
 .tabs{
     text-align: right;
     font-size:larger;
+    padding: 10px 20px;
+    margin: 0px 10px;
 }
+
+.tabs:hover{
+    background-color: palevioletred;
+}
+
 h2{
     color: pink;
     text-align: center;
 }
+
 h3{
     text-decoration: underline;
 }
+
 .projects{
     background-color: palevioletred;
     color: pink;
 }
+
 .titles{
     text-decoration: underline;
 }
+
 .lifestyle{
     color:white;
     height: 750px;
     padding:0 40px 0 40px;
 }
+
 .center-photo{
     display: block;
     margin: auto;
@@ -65,6 +91,8 @@ p{
     color: palevioletred;
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
     padding: 25px;
+}
+
+#returnHome{
 }
