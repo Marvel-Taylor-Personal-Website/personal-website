@@ -25,11 +25,6 @@ body{
     padding: 0px; */
 }
 
-h1{
-    color: palevioletred;
-    font-family:'Times New Roman';
-}
-
 .SE{
     padding-top: 50px;
 }
@@ -58,13 +53,21 @@ h1{
     background-color: pink;
 }
 
+h1{
+    color: palevioletred;
+    font-family:'Times New Roman';
+}
+
 h2{
     color: pink;
     text-align: center;
+    padding-top: 25px;
 }
 
 h3{
     text-decoration: underline;
+    color: pink;
+    padding-top: 25px;
 }
 
 .projects{
@@ -85,11 +88,13 @@ h3{
 .center-photo{
     display: block;
     margin: auto;
+    padding-top: 15px;
 }
 
 p{
     color: palevioletred;
     text-align: center;
+    padding-top: 25px;
 }
 
 #forms{
