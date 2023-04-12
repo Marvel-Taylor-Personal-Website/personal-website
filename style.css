@@ -104,5 +104,9 @@ p{
     padding: 25px;
 }
 
-#returnHome{
+.returnHome a{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
