@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-header{
-    /* box-sizing: border-box;
-    display: block; */
-}
+/* header{
+    box-sizing: border-box;
+    display: block;
+} */
 
 nav{
     display: flex;
@@ -101,7 +101,8 @@ p{
     color: palevioletred;
     display: flex;
     justify-content: center;
-    padding: 25px;
+    /* justify-content: space-between; */
+    padding-top: 25px;
 }
 
 .returnHome a{
